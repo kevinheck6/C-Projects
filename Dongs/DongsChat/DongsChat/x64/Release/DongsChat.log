@@ -1,0 +1,222 @@
+﻿  imgui_impl_glfw.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\backends\imgui_impl_glfw.cpp': No such file or directory
+  imgui_impl_opengl3.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\backends\imgui_impl_opengl3.cpp': No such file or directory
+  imgui.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\imgui.cpp': No such file or directory
+  imgui_demo.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\imgui_demo.cpp': No such file or directory
+  imgui_draw.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\imgui_draw.cpp': No such file or directory
+  imgui_tables.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\imgui_tables.cpp': No such file or directory
+  imgui_widgets.cpp
+c1xx : fatal  error C1083: Cannot open source file: '..\..\imgui\imgui_widgets.cpp': No such file or directory
+  DongsChat.cpp
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(25,1): warning C4005: 'IMGUI_VERSION': macro redefinition
+C:\vcpkg\installed\x64-windows\include\imgui.h(25,1): message : see previous definition of 'IMGUI_VERSION'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(26,1): warning C4005: 'IMGUI_VERSION_NUM': macro redefinition
+C:\vcpkg\installed\x64-windows\include\imgui.h(26,1): message : see previous definition of 'IMGUI_VERSION_NUM'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(255,1): error C2011: 'ImVec2': 'struct' type redefinition
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(268,1): error C2011: 'ImVec4': 'struct' type redefinition
+C:\vcpkg\installed\x64-windows\include\imgui.h(266,8): message : see declaration of 'ImVec4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(289,76): error C2572: 'ImGui::CreateContext': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(288,29): message : see declaration of 'ImGui::CreateContext'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(290,64): error C2572: 'ImGui::DestroyContext': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(289,29): message : see declaration of 'ImGui::DestroyContext'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(303,59): error C2572: 'ImGui::ShowDemoWindow': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(302,29): message : see declaration of 'ImGui::ShowDemoWindow'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(304,62): error C2572: 'ImGui::ShowMetricsWindow': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(303,29): message : see declaration of 'ImGui::ShowMetricsWindow'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(305,63): error C2572: 'ImGui::ShowDebugLogWindow': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(304,29): message : see declaration of 'ImGui::ShowDebugLogWindow'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(306,64): error C2572: 'ImGui::ShowStackToolWindow': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(305,29): message : see declaration of 'ImGui::ShowStackToolWindow'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(307,60): error C2572: 'ImGui::ShowAboutWindow': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(306,29): message : see declaration of 'ImGui::ShowAboutWindow'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(308,63): error C2572: 'ImGui::ShowStyleEditor': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(307,29): message : see declaration of 'ImGui::ShowStyleEditor'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(315,63): error C2572: 'ImGui::StyleColorsDark': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(314,29): message : see declaration of 'ImGui::StyleColorsDark'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(316,64): error C2572: 'ImGui::StyleColorsLight': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(315,29): message : see declaration of 'ImGui::StyleColorsLight'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(317,66): error C2572: 'ImGui::StyleColorsClassic': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(316,29): message : see declaration of 'ImGui::StyleColorsClassic'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(331,68): error C2572: 'ImGui::Begin': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(330,29): message : see declaration of 'ImGui::Begin'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(331,99): error C2572: 'ImGui::Begin': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(330,29): message : see declaration of 'ImGui::Begin'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(342,88): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(342,109): error C2572: 'ImGui::BeginChild': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(341,29): message : see declaration of 'ImGui::BeginChild'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(342,141): error C2572: 'ImGui::BeginChild': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(341,29): message : see declaration of 'ImGui::BeginChild'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(343,80): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(343,101): error C2572: 'ImGui::BeginChild': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(342,29): message : see declaration of 'ImGui::BeginChild'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(343,133): error C2572: 'ImGui::BeginChild': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(342,29): message : see declaration of 'ImGui::BeginChild'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(350,69): error C2572: 'ImGui::IsWindowFocused': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(349,29): message : see declaration of 'ImGui::IsWindowFocused'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(351,69): error C2572: 'ImGui::IsWindowHovered': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(350,29): message : see declaration of 'ImGui::IsWindowHovered'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(360,114): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(360,82): error C2572: 'ImGui::SetNextWindowPos': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(359,29): message : see declaration of 'ImGui::SetNextWindowPos'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(361,84): error C2572: 'ImGui::SetNextWindowSize': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(360,29): message : see declaration of 'ImGui::SetNextWindowSize'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(362,142): error C2572: 'ImGui::SetNextWindowSizeConstraints': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(361,29): message : see declaration of 'ImGui::SetNextWindowSizeConstraints'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(362,177): error C2572: 'ImGui::SetNextWindowSizeConstraints': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(361,29): message : see declaration of 'ImGui::SetNextWindowSizeConstraints'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(364,85): error C2572: 'ImGui::SetNextWindowCollapsed': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(363,29): message : see declaration of 'ImGui::SetNextWindowCollapsed'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(368,78): error C2572: 'ImGui::SetWindowPos': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(367,29): message : see declaration of 'ImGui::SetWindowPos'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(369,80): error C2572: 'ImGui::SetWindowSize': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(368,29): message : see declaration of 'ImGui::SetWindowSize'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(370,81): error C2572: 'ImGui::SetWindowCollapsed': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(369,29): message : see declaration of 'ImGui::SetWindowCollapsed'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(373,96): error C2572: 'ImGui::SetWindowPos': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(372,29): message : see declaration of 'ImGui::SetWindowPos'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(374,98): error C2572: 'ImGui::SetWindowSize': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(373,29): message : see declaration of 'ImGui::SetWindowSize'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(375,99): error C2572: 'ImGui::SetWindowCollapsed': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(374,29): message : see declaration of 'ImGui::SetWindowCollapsed'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(395,67): error C2572: 'ImGui::SetScrollHereX': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(394,29): message : see declaration of 'ImGui::SetScrollHereX'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(396,67): error C2572: 'ImGui::SetScrollHereY': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(395,29): message : see declaration of 'ImGui::SetScrollHereY'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(397,85): error C2572: 'ImGui::SetScrollFromPosX': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(396,29): message : see declaration of 'ImGui::SetScrollFromPosX'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(398,85): error C2572: 'ImGui::SetScrollFromPosY': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(397,29): message : see declaration of 'ImGui::SetScrollFromPosY'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(405,55): error C2572: 'ImGui::PopStyleColor': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(404,29): message : see declaration of 'ImGui::PopStyleColor'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(408,53): error C2572: 'ImGui::PopStyleVar': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(407,29): message : see declaration of 'ImGui::PopStyleVar'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(419,70): error C2572: 'ImGui::PushTextWrapPos': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(418,29): message : see declaration of 'ImGui::PushTextWrapPos'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(427,73): error C2572: 'ImGui::GetColorU32': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(426,29): message : see declaration of 'ImGui::GetColorU32'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(440,64): error C2572: 'ImGui::SameLine': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(439,29): message : see declaration of 'ImGui::SameLine'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(440,85): error C2572: 'ImGui::SameLine': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(439,29): message : see declaration of 'ImGui::SameLine'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(444,53): error C2572: 'ImGui::Indent': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(443,29): message : see declaration of 'ImGui::Indent'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(445,55): error C2572: 'ImGui::Unindent': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(444,29): message : see declaration of 'ImGui::Unindent'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(484,86): error C2572: 'ImGui::TextUnformatted': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(483,29): message : see declaration of 'ImGui::TextUnformatted'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(501,83): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(503,110): error C2572: 'ImGui::InvisibleButton': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(502,29): message : see declaration of 'ImGui::InvisibleButton'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(510,90): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(510,125): error C2572: 'ImGui::ProgressBar': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(509,29): message : see declaration of 'ImGui::ProgressBar'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(515,111): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(515,145): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(515,184): error C2027: use of undefined type 'ImVec4'
+C:\vcpkg\installed\x64-windows\include\imgui.h(266,8): message : see declaration of 'ImVec4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(515,231): error C2027: use of undefined type 'ImVec4'
+C:\vcpkg\installed\x64-windows\include\imgui.h(266,8): message : see declaration of 'ImVec4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(516,137): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(516,171): error C2027: use of undefined type 'ImVec2'
+C:\vcpkg\installed\x64-windows\include\imgui.h(253,8): message : see declaration of 'ImVec2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(516,208): error C2027: use of undefined type 'ImVec4'
+C:\vcpkg\installed\x64-windows\include\imgui.h(266,8): message : see declaration of 'ImVec4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(516,253): error C2027: use of undefined type 'ImVec4'
+C:\vcpkg\installed\x64-windows\include\imgui.h(266,8): message : see declaration of 'ImVec4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(521,110): error C2572: 'ImGui::BeginCombo': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(520,29): message : see declaration of 'ImGui::BeginCombo'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(523,150): error C2572: 'ImGui::Combo': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(522,29): message : see declaration of 'ImGui::Combo'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(524,144): error C2572: 'ImGui::Combo': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(523,29): message : see declaration of 'ImGui::Combo'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(525,200): error C2572: 'ImGui::Combo': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(524,29): message : see declaration of 'ImGui::Combo'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(539,84): error C2572: 'ImGui::DragFloat': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(538,29): message : see declaration of 'ImGui::DragFloat'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(539,104): error C2572: 'ImGui::DragFloat': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(538,29): message : see declaration of 'ImGui::DragFloat'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(539,124): error C2572: 'ImGui::DragFloat': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(538,29): message : see declaration of 'ImGui::DragFloat'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(539,151): error C2572: 'ImGui::DragFloat': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(538,29): message : see declaration of 'ImGui::DragFloat'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(539,184): error C2572: 'ImGui::DragFloat': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(538,29): message : see declaration of 'ImGui::DragFloat'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(540,87): error C2572: 'ImGui::DragFloat2': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(539,29): message : see declaration of 'ImGui::DragFloat2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(540,107): error C2572: 'ImGui::DragFloat2': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(539,29): message : see declaration of 'ImGui::DragFloat2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(540,127): error C2572: 'ImGui::DragFloat2': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(539,29): message : see declaration of 'ImGui::DragFloat2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(540,154): error C2572: 'ImGui::DragFloat2': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(539,29): message : see declaration of 'ImGui::DragFloat2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(540,187): error C2572: 'ImGui::DragFloat2': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(539,29): message : see declaration of 'ImGui::DragFloat2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(541,87): error C2572: 'ImGui::DragFloat3': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(540,29): message : see declaration of 'ImGui::DragFloat3'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(541,107): error C2572: 'ImGui::DragFloat3': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(540,29): message : see declaration of 'ImGui::DragFloat3'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(541,127): error C2572: 'ImGui::DragFloat3': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(540,29): message : see declaration of 'ImGui::DragFloat3'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(541,154): error C2572: 'ImGui::DragFloat3': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(540,29): message : see declaration of 'ImGui::DragFloat3'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(541,187): error C2572: 'ImGui::DragFloat3': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(540,29): message : see declaration of 'ImGui::DragFloat3'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(542,87): error C2572: 'ImGui::DragFloat4': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(541,29): message : see declaration of 'ImGui::DragFloat4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(542,107): error C2572: 'ImGui::DragFloat4': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(541,29): message : see declaration of 'ImGui::DragFloat4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(542,127): error C2572: 'ImGui::DragFloat4': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(541,29): message : see declaration of 'ImGui::DragFloat4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(542,154): error C2572: 'ImGui::DragFloat4': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(541,29): message : see declaration of 'ImGui::DragFloat4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(542,187): error C2572: 'ImGui::DragFloat4': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(541,29): message : see declaration of 'ImGui::DragFloat4'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(543,124): error C2572: 'ImGui::DragFloatRange2': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(542,29): message : see declaration of 'ImGui::DragFloatRange2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(543,144): error C2572: 'ImGui::DragFloatRange2': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(542,29): message : see declaration of 'ImGui::DragFloatRange2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(543,164): error C2572: 'ImGui::DragFloatRange2': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(542,29): message : see declaration of 'ImGui::DragFloatRange2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(543,191): error C2572: 'ImGui::DragFloatRange2': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(542,29): message : see declaration of 'ImGui::DragFloatRange2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(543,224): error C2572: 'ImGui::DragFloatRange2': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(542,29): message : see declaration of 'ImGui::DragFloatRange2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(543,255): error C2572: 'ImGui::DragFloatRange2': redefinition of default argument: parameter 6
+C:\vcpkg\installed\x64-windows\include\imgui.h(542,29): message : see declaration of 'ImGui::DragFloatRange2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(544,80): error C2572: 'ImGui::DragInt': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(543,29): message : see declaration of 'ImGui::DragInt'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(544,98): error C2572: 'ImGui::DragInt': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(543,29): message : see declaration of 'ImGui::DragInt'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(544,113): error C2572: 'ImGui::DragInt': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(543,29): message : see declaration of 'ImGui::DragInt'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(544,137): error C2572: 'ImGui::DragInt': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(543,29): message : see declaration of 'ImGui::DragInt'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(544,168): error C2572: 'ImGui::DragInt': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(543,29): message : see declaration of 'ImGui::DragInt'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(545,83): error C2572: 'ImGui::DragInt2': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(544,29): message : see declaration of 'ImGui::DragInt2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(545,101): error C2572: 'ImGui::DragInt2': redefinition of default argument: parameter 2
+C:\vcpkg\installed\x64-windows\include\imgui.h(544,29): message : see declaration of 'ImGui::DragInt2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(545,116): error C2572: 'ImGui::DragInt2': redefinition of default argument: parameter 3
+C:\vcpkg\installed\x64-windows\include\imgui.h(544,29): message : see declaration of 'ImGui::DragInt2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(545,140): error C2572: 'ImGui::DragInt2': redefinition of default argument: parameter 4
+C:\vcpkg\installed\x64-windows\include\imgui.h(544,29): message : see declaration of 'ImGui::DragInt2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(545,171): error C2572: 'ImGui::DragInt2': redefinition of default argument: parameter 5
+C:\vcpkg\installed\x64-windows\include\imgui.h(544,29): message : see declaration of 'ImGui::DragInt2'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(546,83): error C2572: 'ImGui::DragInt3': redefinition of default argument: parameter 1
+C:\vcpkg\installed\x64-windows\include\imgui.h(545,29): message : see declaration of 'ImGui::DragInt3'
+C:\Users\kevin\Documents\GitHub\C++Projects\Dongs\DongsChat\DongsChat\imgui\imgui.h(546,173): fatal  error C1003: error count exceeds 100; stopping compilation

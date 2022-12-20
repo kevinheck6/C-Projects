@@ -1,0 +1,45 @@
+QDialog {
+    background-color: #36393f;
+}
+
+QLabel {
+    color: white;
+    font-size: 14pt;
+    font-family: "Roboto";
+}
+
+QLineEdit {
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #2f3136;
+    color: white;
+    font-family: "Roboto";
+}
+
+QPushButton {
+    background-color: #7289da;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 14pt;
+    font-family: "Roboto";
+}
+
+#include "logindialog.h"
+
+LoginDialog {
+    /* Set the size of the login dialog to be similar to Discord */
+    size: 400px 300px;
+
+    /* Set the minimum and maximum sizes of the login dialog */
+    minimumSize: 400px 300px;
+    maximumSize: 400px 300px;
+
+    /* Set the hover and pressed styles for the login and register buttons */
+    QPushButton:hover {
+        background-color: #5b6a8e;
+    }
+    QPushButton:pressed {
+        background-color: #4d5e7f;
+    }
+}
