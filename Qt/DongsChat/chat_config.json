@@ -1,0 +1,6 @@
+{
+    "window_title": "Chat Main Window",
+    "window_width": 600,
+    "window_height": 400,
+    "style_sheet_file_path": ":/styleChat.qss"
+}

@@ -1,12 +1,7 @@
 #include "registerdialog.h"
 #include "logindatabase.h"
 
-#include <QLabel>
-#include <QLineEdit>
-#include <QPushButton>
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-#include <QMessageBox>
+#include "stdafx.h"
 
 RegisterDialog::RegisterDialog(QWidget *parent)
     : QDialog(parent)

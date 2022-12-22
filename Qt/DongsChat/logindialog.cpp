@@ -1,17 +1,26 @@
 #include "logindialog.h"
+#include "chatmainwindow.h"
+#include "qmainwindow.h"
 #include "registerdialog.h"
 #include "logindatabase.h"
 
-#include <QFile>
-#include <QString>
-#include <QApplication>
+#include "stdafx.h"
 
-#include <QLineEdit>
-#include <QPushButton>
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-#include <QLabel>
-#include <QMessageBox>
+void LoginDialog::showChatMainWindow()
+{
+    QString username = m_usernameEdit->text();
+    // Create an instance of the ChatMainWindow class
+    ChatMainWindow *chatMainWindow = new ChatMainWindow(username, nullptr);
+
+    // Set the ChatMainWindow object as the main window
+    chatMainWindow->setWindowTitle("Chat Main Window");
+    chatMainWindow->resize(600, 400);
+
+    // Show the ChatMainWindow
+    chatMainWindow->show();
+}
+
+
 
 LoginDialog::LoginDialog(QWidget *parent)
     : QDialog(parent)
@@ -25,6 +34,15 @@ LoginDialog::LoginDialog(QWidget *parent)
 
     // Set the style sheet for the login dialog
     setStyleSheet(styleSheet);
+
+    // Print the contents of the style sheet to the console
+    //qDebug() << styleSheet;
+
+    // Create the main window
+    m_mainWindow = new QMainWindow;
+    // Set the main window's properties (e.g. size, title, layout)
+    m_mainWindow->setWindowTitle("Main Window");
+    m_mainWindow->resize(600, 400);
 
     // Set the size of the login dialog
     resize(400, 300);
@@ -60,19 +78,33 @@ LoginDialog::LoginDialog(QWidget *parent)
     setLayout(mainLayout);
 }
 
+QString LoginDialog::username() const
+{
+    return m_username;
+}
+
 void LoginDialog::onLoginClicked()
 {
     LoginDatabase loginDatabase;
 
     QString username = m_usernameEdit->text();
+    m_username = username; // store the username
     QString password = m_passwordEdit->text();
 
     if (loginDatabase.checkLogin(username, password)) {
-        accept();
+        QString username = m_username;
+        // Hide the login dialog
+        hide();
+
+        // Show the ChatMainWindow
+        showChatMainWindow();
     } else {
         QMessageBox::warning(this, "Login Failed", "Invalid username or password");
     }
 }
+
+
+
 
 void LoginDialog::onRegisterClicked()
 {
@@ -84,3 +116,5 @@ void LoginDialog::onRegisterClicked()
         loginDatabase.addUser(registerDialog.username(), registerDialog.password());
     }
 }
+
+

@@ -1,8 +1,6 @@
 #include "logindatabase.h"
+#include "stdafx.h"
 
-#include <QMessageBox>
-#include <QSqlError>
-#include <QSqlQuery>
 
 LoginDatabase::LoginDatabase()
 {
@@ -158,4 +156,5 @@ bool LoginDatabase::checkCredentials(const QString &username, const QString &pas
     int count = query.value(0).toInt();
     return (count > 0);
 }
+
 

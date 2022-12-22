@@ -25,12 +25,7 @@ QPushButton {
     font-family: "Roboto";
 }
 
-#include "logindialog.h"
-
 LoginDialog {
-    /* Set the size of the login dialog to be similar to Discord */
-    size: 400px 300px;
-
     /* Set the minimum and maximum sizes of the login dialog */
     minimumSize: 400px 300px;
     maximumSize: 400px 300px;
@@ -43,3 +38,6 @@ LoginDialog {
         background-color: #4d5e7f;
     }
 }
+
+
+

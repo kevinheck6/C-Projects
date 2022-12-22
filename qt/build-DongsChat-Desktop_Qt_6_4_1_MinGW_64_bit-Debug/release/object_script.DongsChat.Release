@@ -1,0 +1,12 @@
+release/chatmainwindow.o
+release/logindatabase.o
+release/logindialog.o
+release/main.o
+release/mainwindow.o
+release/registerdialog.o
+release/tests.o
+release/qrc_style.o
+release/moc_chatmainwindow.o
+release/moc_logindialog.o
+release/moc_mainwindow.o
+release/moc_registerdialog.o

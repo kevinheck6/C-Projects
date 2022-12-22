@@ -10,17 +10,22 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    chatmainwindow.cpp \
     logindatabase.cpp \
     logindialog.cpp \
     main.cpp \
     mainwindow.cpp \
-    registerdialog.cpp
+    registerdialog.cpp \
+    tests.cpp
 
 HEADERS += \
+    chatmainwindow.h \
     logindatabase.h \
     logindialog.h \
     mainwindow.h \
-    registerdialog.h
+    registerdialog.h \
+    stdafx.h \
+    tests.h
 
 FORMS += \
     mainwindow.ui
@@ -31,7 +36,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    style.qss
+    chat_config.json \
+    style.qss \
+    styleChat.qss
 
 RESOURCES += \
     style.qrc
