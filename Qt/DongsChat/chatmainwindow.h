@@ -9,6 +9,8 @@
 #include <QTextEdit>
 #include <QListWidget>
 
+#include "clientsocket.h"
+
 
 class ChatMainWindow : public QMainWindow
 {
@@ -18,10 +20,14 @@ public:
     explicit ChatMainWindow(const QString &nickname, QWidget *parent = nullptr);
     ~ChatMainWindow();
 
+    void sendMessage();
+
     //void displayUsername(const QString &nickname);
 
 private:
     // Put any private member variables or functions here
+    ClientSocket *m_clientSocket;
+
     QTextEdit *m_chatLog;
     QLineEdit *m_messageEdit;
     QPushButton *m_sendButton;
@@ -35,7 +41,6 @@ private:
 
 
 private slots:
-    void sendMessage();
     void onSendClicked();
     //void createRoom();
 };

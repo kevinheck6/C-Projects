@@ -1,0 +1,31 @@
+
+ChatMainWindow {
+    /* Set the background color of the ChatMainWindow */
+    background-color: #36393f;
+}
+
+ChatMainWindow QListWidget {
+    /* Set the color and font of the list widget items */
+    color: white;
+    font-family: "Roboto";
+}
+
+ChatMainWindow QTextEdit {
+    /* Set the border and background color of the text edit */
+    border: 1px solid white;
+    background-color: #2f3136;
+}
+
+ChatMainWindow QPushButton {
+    /* Set the background color and font of the push buttons */
+    background-color: #7289da;
+    font-family: "Roboto";
+
+    /* Set the hover and pressed styles for the push buttons */
+    :hover {
+        background-color: #5b6a8e;
+    }
+    :pressed {
+        background-color: #4d5e7f;
+    }
+}
