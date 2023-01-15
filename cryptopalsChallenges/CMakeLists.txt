@@ -3,4 +3,4 @@ project(cryptopalsChallenges)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cryptopalsChallenges main.cpp)
+add_executable(cryptopalsChallenges main.cpp HexToBase64.cpp HexToBase64.h)
