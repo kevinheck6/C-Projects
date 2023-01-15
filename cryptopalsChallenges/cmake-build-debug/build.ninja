@@ -61,6 +61,12 @@ build CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj: CXX_COMPILER__cry
   OBJECT_DIR = CMakeFiles\cryptopalsChallenges.dir
   OBJECT_FILE_DIR = CMakeFiles\cryptopalsChallenges.dir
 
+build CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj: CXX_COMPILER__cryptopalsChallenges_Debug C$:/Users/kevin/Documents/GitHub/C++Projects/cryptopalsChallenges/tests.cpp || cmake_object_order_depends_target_cryptopalsChallenges
+  DEP_FILE = CMakeFiles\cryptopalsChallenges.dir\tests.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\cryptopalsChallenges.dir
+  OBJECT_FILE_DIR = CMakeFiles\cryptopalsChallenges.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cryptopalsChallenges
@@ -69,7 +75,7 @@ build CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj: CXX_COMPILER__cry
 #############################################
 # Link the executable cryptopalsChallenges.exe
 
-build cryptopalsChallenges.exe: CXX_EXECUTABLE_LINKER__cryptopalsChallenges_Debug CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj
+build cryptopalsChallenges.exe: CXX_EXECUTABLE_LINKER__cryptopalsChallenges_Debug CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cryptopalsChallenges.dir

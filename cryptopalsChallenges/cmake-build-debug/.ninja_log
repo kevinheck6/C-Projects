@@ -1,7 +1,8 @@
 # ninja log v5
-1	152	6955147373793280	build.ninja	a82b28bb68cef78c
-7	544	6955147379444788	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
-0	586	6955147379889586	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
-586	730	6955147381305472	cryptopalsChallenges.exe	4d2727e28884326f
+1	152	6955167051372853	build.ninja	a82b28bb68cef78c
 2	433	6955163132892466	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
+0	586	6955147379889586	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
 433	545	6955163133995866	cryptopalsChallenges.exe	4d2727e28884326f
+3	437	6955169876071459	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
+11	609	6955169877778207	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
+609	727	6955169878932531	cryptopalsChallenges.exe	5f6a90b1e4226d52
