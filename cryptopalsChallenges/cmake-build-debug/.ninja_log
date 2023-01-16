@@ -21,3 +21,7 @@
 3	400	6955907010611531	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
 11	448	6955907011096334	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
 449	575	6955907012323224	cryptopalsChallenges.exe	20c1b4f80eea4d76
+3	419	6955909282368960	CMakeFiles/cryptopalsChallenges.dir/xor.cpp.obj	243a69403799fce3
+419	552	6955909283672377	cryptopalsChallenges.exe	20c1b4f80eea4d76
+3	406	6955909388509312	CMakeFiles/cryptopalsChallenges.dir/xor.cpp.obj	243a69403799fce3
+406	526	6955909389682331	cryptopalsChallenges.exe	20c1b4f80eea4d76
