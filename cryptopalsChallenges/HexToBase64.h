@@ -1,15 +1,14 @@
-#ifndef HEX_TO_BASE64_H
-#define HEX_TO_BASE64_H
+#ifndef HEXTOBASE64_H
+#define HEXTOBASE64_H
 
 #include <string>
-#include <vector>
+#include "Conversion.h"
 
 class HexToBase64 {
-private:
-    static const std::string base64_chars;
-
 public:
     static std::string convert(const std::string& hex_string);
+private:
+    static const std::string base64_chars;
 };
 
-#endif // HEX_TO_BASE64_H
+#endif

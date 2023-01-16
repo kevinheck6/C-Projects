@@ -1,8 +1,23 @@
 # ninja log v5
-1	152	6955167051372853	build.ninja	a82b28bb68cef78c
+1	152	6955179482791222	build.ninja	a82b28bb68cef78c
 2	433	6955163132892466	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
-0	586	6955147379889586	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
-433	545	6955163133995866	cryptopalsChallenges.exe	4d2727e28884326f
 3	437	6955169876071459	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
-11	609	6955169877778207	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
 609	727	6955169878932531	cryptopalsChallenges.exe	5f6a90b1e4226d52
+11	609	6955169877778207	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
+26	439	6955185262743698	CMakeFiles/cryptopalsChallenges.dir/Conversion.cpp.obj	4fef35b1a1f16ba3
+3	456	6955185262902934	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
+12	494	6955185263292717	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
+18	541	6955185263738543	CMakeFiles/cryptopalsChallenges.dir/xor.cpp.obj	243a69403799fce3
+542	703	6955185265366254	cryptopalsChallenges.exe	20c1b4f80eea4d76
+2	747	6955187772322520	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
+747	867	6955187773512588	cryptopalsChallenges.exe	20c1b4f80eea4d76
+3	370	6955189072195529	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
+370	484	6955189073325022	cryptopalsChallenges.exe	20c1b4f80eea4d76
+40	508	6955902943312786	CMakeFiles/cryptopalsChallenges.dir/Conversion.cpp.obj	4fef35b1a1f16ba3
+2	511	6955902943312786	CMakeFiles/cryptopalsChallenges.dir/HexToBase64.cpp.obj	dff0299223f63971
+22	538	6955902943586664	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
+31	544	6955902943657030	CMakeFiles/cryptopalsChallenges.dir/xor.cpp.obj	243a69403799fce3
+544	763	6955902945840130	cryptopalsChallenges.exe	20c1b4f80eea4d76
+3	400	6955907010611531	CMakeFiles/cryptopalsChallenges.dir/main.cpp.obj	4b29ce5dc5b7abd4
+11	448	6955907011096334	CMakeFiles/cryptopalsChallenges.dir/tests.cpp.obj	c0e6bd95e9a24ce3
+449	575	6955907012323224	cryptopalsChallenges.exe	20c1b4f80eea4d76
