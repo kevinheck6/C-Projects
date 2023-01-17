@@ -1,10 +1,13 @@
 #include "tests.h"
 #include "HexToBase64.h"
 #include "Xor.h"
+#include "SingleByteXorCipher.h"
+
 
 void Test::run() {
     test_hex_to_base64();
     test_fixed_xor();
+    test_single_byte_xor_cipher();
 }
 
 void Test::test_hex_to_base64() {
@@ -37,4 +40,27 @@ void Test::test_fixed_xor() {
         std::cout << "Expected XOR Hex: " << expected_xor_hex << std::endl;
         std::cout << "Output XOR Hex: " << xor_hex << std::endl;
     }
+}
+
+//Still in test
+void Test::test_single_byte_xor_cipher() {
+    SingleByteXorCipher cipher;
+    std::string hexEncodedString = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736";
+    double bestScore = 0;
+    std::string bestPlaintext = "";
+    char bestKey = 0;
+
+    for (int i = 0; i <= 255; i++) {
+        char key = (char)i;
+        std::string plaintext = cipher.decrypt(hexEncodedString, key);
+        double score = cipher.score(plaintext);
+        if (score > bestScore) {
+            bestScore = score;
+            bestPlaintext = plaintext;
+            bestKey = key;
+        }
+    }
+
+    std::cout << "Best key: " << bestKey << std::endl;
+    std::cout << "Best plaintext: " << bestPlaintext << std::endl;
 }

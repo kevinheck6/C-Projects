@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include "Xor.h"
 
 std::string Xor::fixed_xor(std::string hex_string1, std::string hex_string2) {
@@ -8,16 +9,19 @@ std::string Xor::fixed_xor(std::string hex_string1, std::string hex_string2) {
         return "";
     }
 
-    // Convert the input hex strings to binary
-    std::string binary_string1 = Conversion::hex_to_binary(hex_string1);
-    std::string binary_string2 = Conversion::hex_to_binary(hex_string2);
-    std::string xor_binary_string = "";
+    std::string xor_hex_string = "";
 
-    // Perform the XOR operation on each corresponding bit of the input binary strings
-    for (int i = 0; i < binary_string1.length(); i++) {
-        xor_binary_string += (binary_string1[i] == binary_string2[i]) ? '0' : '1';
+    // Perform the XOR operation on each corresponding character of the input hex strings
+    for (int i = 0; i < hex_string1.length(); i++) {
+        int val1 = std::stoi(hex_string1.substr(i, 1), nullptr, 16);
+        int val2 = std::stoi(hex_string2.substr(i, 1), nullptr, 16);
+        int xor_val = val1 ^ val2;
+
+        // Append the result to the output hex string
+        std::stringstream ss;
+        ss << std::setw(1) << std::setfill('0') << std::hex << xor_val;
+        xor_hex_string += ss.str();
     }
 
-    // Convert the resulting binary string to hex
-    return Conversion::binary_to_hex(xor_binary_string);
+    return xor_hex_string;
 }

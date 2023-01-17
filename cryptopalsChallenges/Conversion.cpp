@@ -1,3 +1,6 @@
+#include <sstream>
+#include <iomanip>
+#include <bitset>
 #include "Conversion.h"
 
 std::string Conversion::hex_to_binary(const std::string& hex_string) {
@@ -73,4 +76,70 @@ std::string Conversion::decimal_to_binary(int decimal) {
         decimal /= 2;
     }
     return binary_string;
+}
+
+std::string Conversion::int_to_hex_string(int num) {
+    std::stringstream stream;
+    stream << std::hex << num;
+    return stream.str();
+}
+
+std::string Conversion::hex_to_string(const std::string& hex_string) {
+    std::stringstream ss;
+    for (size_t i = 0; i < hex_string.length(); i += 2) {
+        std::string byte = hex_string.substr(i, 2);
+        char chr = (char) (int)strtol(byte.c_str(), NULL, 16);
+        ss << chr;
+    }
+    return ss.str();
+}
+
+
+std::string Conversion::int_to_hex_string(int num, int length) {
+    std::stringstream stream;
+    stream << std::hex << num;
+    std::string result(stream.str());
+    if (result.length() < length) {
+        result = std::string(length - result.length(), '0') + result;
+    }
+    return result;
+}
+
+std::string Conversion::int_to_binary(int number, int num_bits) {
+    std::string binary_string = "";
+    for (int i = num_bits - 1; i >= 0; i--) {
+        binary_string += (number & (1 << i)) ? '1' : '0';
+    }
+    return binary_string;
+}
+
+std::string Conversion::binary_to_string(const std::string& binary_string) {
+    std::string str;
+    for (int i = 0; i < binary_string.length(); i += 8) {
+        std::string byte = binary_string.substr(i, 8);
+        int ascii_val = binary_to_decimal(byte);
+        str += (char)ascii_val;
+    }
+    return str;
+}
+
+int Conversion::hex_to_int(const std::string& hex_string) {
+    int num = 0;
+    for (char c : hex_string) {
+        num = num * 16 + hex_to_int(c);
+    }
+    return num;
+}
+
+int Conversion::hex_to_int(const char hex_char) {
+    if (hex_char >= '0' && hex_char <= '9') {
+        return hex_char - '0';
+    }
+    if (hex_char >= 'a' && hex_char <= 'f') {
+        return hex_char - 'a' + 10;
+    }
+    if (hex_char >= 'A' && hex_char <= 'F') {
+        return hex_char - 'A' + 10;
+    }
+    return 0;
 }
